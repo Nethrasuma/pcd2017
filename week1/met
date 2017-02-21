@@ -1,3 +1,26 @@
+#include<stdio.h>
+int add(inta[],intn)
+(inti,sum;
+sum=0;
+for(i=0;i<n;i++)
+{
+sum=sum+a[i];
+}
+return sum;
+}
+int main()
+{intn,i,sum;
+inta[100];
+primtf("enter number of elements\n");
+scanf("%d",&n);
+printf("enter%delements,",n
+;
+for(i=0;i<n;i++)
+{scanf("%d",&a[i]);
+}
+sum=add(a,n);
+printf("sum=%d\n",sum);
+}
 
 
 
