@@ -12,4 +12,3 @@ printf("result is :%d \n",c);
 return 0;
 }
 
-
